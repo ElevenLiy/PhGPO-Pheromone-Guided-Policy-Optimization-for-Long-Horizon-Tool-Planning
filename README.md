@@ -6,7 +6,8 @@
 
 > **PhGPO** is a novel reinforcement learning framework that enables explicit reuse of historically successful tool-use trajectories for long-horizon tool planning. Inspired by Ant Colony Optimization (ACO), PhGPO maintains a pheromone-based explicit transition prior that guides policy optimization toward historically successful tool transitions.
 
-<img width="2812" height="1260" alt="image" src="https://github.com/user-attachments/assets/a14d4fc8-49b7-4a84-93ac-e7cadd32090d" />
+<img width="960" height="438" alt="image" src="https://github.com/user-attachments/assets/4d5f5860-6ef5-46d4-8583-8b5f9592c945" />
+
 
 
 
