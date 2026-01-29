@@ -577,7 +577,7 @@ class PassAtKEvaluator:
 
 class Config:
 
-    project_root = Path("/seu_share2/home/fenglei/230250004/Agent_Tool/tool-use/tool-use")
+    project_root = Path("")
 
     EXPERIMENT_NAME = "v12_qwen_7b_0109"
 
@@ -588,8 +588,8 @@ class Config:
 
     USE_7B = True
 
-    model_path = "/seu_share2/home/fenglei/sharedata/Qwen2.5-7B-Instruct" if USE_7B else \
-                 "/seu_share2/home/fenglei/230250004/Qwen2.5-1.5B-Instruct"
+    model_path = "" if USE_7B else \
+                 ""
 
     original_tools_path = project_root / "json_file" / "all_tools.json"
     extended_tools_path = project_root / "json_file" / "mcp_rl_graph_v2.json"
@@ -607,7 +607,7 @@ class Config:
     memory_time_decay = 0.998
     memory_min_score = 0.3
 
-    embedding_model = "/seu_share2/home/fenglei/230250004/all-MiniLM-L6-v2"
+    embedding_model = ""
     embedding_cache_size = 1000
 
     context_confidence_threshold = 0.25
