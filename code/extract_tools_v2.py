@@ -329,7 +329,7 @@ def generate_mcp_graph(
 
 
 def main():
-    PROJECT_ROOT = "/seu_share2/home/fenglei/230250004/Agent_Tool/tool-use/tool-use"
+    PROJECT_ROOT = " "
 
     print("=" * 70)
     print("提取工具定义 V2")
